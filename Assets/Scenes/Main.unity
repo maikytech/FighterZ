@@ -121,6 +121,44 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &522845222 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1185420352520442586, guid: a10700acb6ae148ddb34392f0b2dd2a0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1185420352777268994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &522845223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522845222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c9b6d07057bd4b1b9c0d0811e60417a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedPlayer: 0
+--- !u!95 &522845226
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522845222}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 865d695816206f84eb3d89272878bfe7, type: 3}
+  m_Controller: {fileID: 9100000, guid: e0c704a63bad44545b2c9bcb6e1a98e2, type: 2}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985682963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -495,6 +533,36 @@ PrefabInstance:
       propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 9000000, guid: 865d695816206f84eb3d89272878bfe7, type: 3}
+    - target: {fileID: 1185420352520442584, guid: a10700acb6ae148ddb34392f0b2dd2a0,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185420352520442585, guid: a10700acb6ae148ddb34392f0b2dd2a0,
+        type: 3}
+      propertyPath: m_Height
+      value: 1.6716647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185420352520442585, guid: a10700acb6ae148ddb34392f0b2dd2a0,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.5021329
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185420352520442585, guid: a10700acb6ae148ddb34392f0b2dd2a0,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.8358323
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185420352520442585, guid: a10700acb6ae148ddb34392f0b2dd2a0,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -0.026422799
+      objectReference: {fileID: 0}
+    - target: {fileID: 1185420352520442585, guid: a10700acb6ae148ddb34392f0b2dd2a0,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1185420352520442586, guid: a10700acb6ae148ddb34392f0b2dd2a0,
         type: 3}
       propertyPath: m_Name
