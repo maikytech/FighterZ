@@ -9,11 +9,13 @@ public class PlayerMovementController : MonoBehaviour
 
     private Vector3 playerInput;
     private Rigidbody playerRigidbody;
+    private Animator playerAnimator;
 
     private void Awake()
     {
-        speedPlayer = 5.0f;
+        speedPlayer = 2.0f;
         playerRigidbody = GetComponent<Rigidbody>();
+        playerAnimator = GetComponent<Animator>();
     }
 
     void MovementController()
@@ -25,6 +27,8 @@ public class PlayerMovementController : MonoBehaviour
         Vector3 newPositon = transform.position + playerInput.normalized * speedPlayer * Time.deltaTime;
 
         playerRigidbody.MovePosition(newPositon);
+
+        playerAnimator.SetFloat("Speed", playerInput.sqrMagnitude);     
 
     }
 
