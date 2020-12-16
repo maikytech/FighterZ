@@ -80,7 +80,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!136 &1185420352520442585
 CapsuleCollider:
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedPlayer: 2
-  speedRotation: 2
+  speedRotation: 1000
 --- !u!1001 &1526852642075162027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -195,6 +195,46 @@ PrefabInstance:
     - target: {fileID: 400114, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300004, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700002, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700002, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9500000, guid: c665b3a9b8769c04ebacd292bc9fbaba, type: 3}
