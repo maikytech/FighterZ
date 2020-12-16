@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{4DF19387-A958-5178-CF0A-F91B0A4C205C}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyOneMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyOneAttack.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerMovementController.cs" Line="35" Column="13" />
-      <File FileName="Assets/Scripts/EnemyOneMovement.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/EnemyOneMovement.cs" Line="17" Column="29" />
+      <File FileName="Assets/Scripts/PlayerHealth.cs" Line="37" Column="40" />
+      <File FileName="Assets/Scripts/EnemyOneAttack.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +12,7 @@
           <Node name="FighterZ" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="EnemyOneMovement.cs" selected="True" />
+                <Node name="EnemyOneAttack.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="765e3b92-8061-4a7b-b16f-d2d2830f67d2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b898faf5-24f0-4047-a630-0a2c43e8474b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

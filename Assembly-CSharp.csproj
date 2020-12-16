@@ -63,7 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\EnemyOneAttack.cs" />
     <Compile Include="Assets\Scripts\EnemyOneMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementController.cs" />
     <None Include="Assets\ThirdAssets\Game_Kit\3DGamekit\Art\Shaders\Alien.shader" />
     <None Include="Assets\ThirdAssets\Game_Kit\3DGamekit\Art\Shaders\Translucency.shader" />
